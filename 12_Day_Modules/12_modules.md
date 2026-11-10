@@ -303,3 +303,11 @@ print(rgb_color_gen())
 🎉 CONGRATULATIONS ! 🎉
 
 [<< Day 11](../11_Day_Functions/11_functions.md) | [Day 13>>](../13_Day_List_comprehension/13_list_comprehension.md)
+## Added activity: Module boundary and deterministic temperature conversion
+
+This is an added activity, not one of the numbered exercises.
+
+- Lab: [applied-labs/r27-t055](./applied-labs/r27-t055/)
+- Inputs: `celsius_to_fahrenheit(0)`, `celsius_to_fahrenheit(100)`, `convert_batch([0, 100], event_sink=[], clock=...)`
+- Expected results: `32`, `212`, and identical outputs across isolated deterministic runs
+
